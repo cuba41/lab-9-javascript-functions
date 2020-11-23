@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      function factorial(n) {
+        var total = 1;
+        for (i =0; i < n; i++) {
+          total = total * (n - 1);
+          console.log("current i is " + i);
+          console.log("current value of total " + total);
+
+        }
+        return total;
+      }
+
+      var userstring = prompt("Number please:");
+      var usernum = parseInt(userstring);
+
+    console.log(usernum + "! is " + facrorial(usernum));
+
+    </script>
+  </body>
+</html>
